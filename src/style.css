@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url("./images/pexels-piccinng-3075993.jpg");
+  background-size: cover;
+  font-family: "roboto", sans-serif;
+}
+
+.container {
+  width: 320px;
+  height: 420px;
+
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+
+  background-color: #3b5998;
+
+  box-shadow: 5px 5px 10px, inset 2px 2px 1px;
+}
+
+#contact {
+  border: none;
+  flex-grow: 1;
+  text-align: center;
+  outline: none;
+}
+#user {
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: 2.5rem;
+  border-radius: 15px;
+  padding: 5px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#pass {
+  border: 1px solid black;
+  display: flex;
+  margin-bottom: 0.95rem;
+  border-radius: 15px;
+  padding: 5px;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+#password {
+  border: none;
+  flex-grow: 1;
+  text-align: center;
+  outline: none;
+}
+
+h1 {
+  margin-top: 5px;
+  margin-bottom: 2.5rem;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+}
+#btn {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+  border: 1px solid black;
+  padding: 5px;
+  margin-top: 0.95rem;
+  margin-bottom: 10px;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #ffffff;
+  background-color: #1d3469;
+}
+
+#btn:hover {
+  color: black;
+  background-color: #5e80bf;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 0.95rem;
+}
+
+a:hover {
+  color: black;
+}
+
+p {
+  margin-bottom: 5px;
+  text-align: center;
+}
